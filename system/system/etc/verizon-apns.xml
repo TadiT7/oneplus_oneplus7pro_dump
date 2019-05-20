@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2013-2016 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ * Modified by Rad at 2019-02-20
+*/
+-->
+<apns version="8" onlineconfig_v="8">
+  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
+  <apn carrier="Verizon Internet"
+      mcc="311"
+      mnc="480"
+      apn="VZWINTERNET"
+      type="default,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
+      bearer_bitmask="1|2|3|9|10|11|13|14|15|18"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="20"
+      max_conns_time="300"
+      wait_time="0"
+  />
+
+  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
+  <apn carrier="Verizon FOTA"
+      mcc="311"
+      mnc="480"
+      apn="VZWADMIN"
+      type="fota"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
+      bearer_bitmask="1|2|3|9|10|11|13|14|15|18"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="20"
+      max_conns_time="300"
+      wait_time="0"
+      user_visible="false"
+  />
+
+  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
+  <apn carrier="Verizon IMS"
+      mcc="311"
+      mnc="480"
+      apn="IMS"
+      type="ims,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV6"
+      bearer_bitmask="1|2|3|9|10|11|13|14|15|18"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="20"
+      max_conns_time="300"
+      wait_time="0"
+      user_visible="false"
+  />
+
+  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
+  <apn carrier="Verizon CBS"
+      mcc="311"
+      mnc="480"
+      apn="VZWAPP"
+      type="cbs,mms"
+      mmsc="http://mms.vtext.com/servlets/mms"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
+      bearer_bitmask="1|2|3|9|10|11|13|14|15|18"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="20"
+      max_conns_time="300"
+      wait_time="0"
+      user_visible="false"
+  />
+
+</apns>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+<p att="com.android.cts.net"></p>
+<p att="com.android.cts.stub"></p>
+<p att="com.android.cts.verifier"></p>
+<p att="com.cttl.testService"></p>
+<p att="com.android.cts.permissiondeclareappcompat"></p>
+<p att="com.leixun.nvshen"></p>
+<p att="com.newgame.padtool"></p>
+<p att="cn.ledongli.ldl"></p>
+<p att="com.jianjian.clock"></p>
+<p att="com.happyelements.AndroidAnimal"></p>
+<p att="com.skype.raider"></p>
+<p att="com.microsoft.office.lync15"></p>
+<p att="com.whatsapp"></p>
+<p att="com.viber.voip"></p>
+<p att="jp.naver.line.android"></p>
+<p att="com.linecorp.linelite"></p>
+<p att="com.bsb.hike"></p>
+<p att="com.Slack"></p>
+<p att="com.google.android.apps.messaging"></p>
+<p att="com.google.android.apps.tachyon"></p>
+<p att="com.oneplus.card"></p>
+<p att="com.oneplus.cloud"></p>
+<p att="com.oneplus.note"></p>
+<p att="com.oneplus.calculator"></p>
+<p att="net.oneplus.weather"></p>
+<p att="com.oneplus.filemanager"></p>
+<p att="com.oneplus.soundrecorder"></p>
+</gs>

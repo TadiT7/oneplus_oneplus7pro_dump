@@ -1,0 +1,27 @@
+service vold /system/bin/vold \
+        --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 \
+        --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+    class core
+    ioprio be 2
+    writepid /dev/cpuset/foreground/tasks
+    shutdown critical
+    group reserved_disk
+
+on property:vold.destory.systemce=*
+  md /data/system_ce/${vold.destory.systemce}
+
+on property:vold.destory.miscce=*
+  md /data/misc_ce/${vold.destory.miscce}
+
+on property:vold.destory.mediace=*
+  md /data/media/${vold.destory.mediace}
+
+on property:vold.destory.userce_0=0
+  md /data/data
+
+on property:vold.destory.userce=*
+  md /data/user/${vold.destory.userce}
+
+on property:vold.destory.vendorce=*
+  md /data/vendor_ce/${vold.destory.vendorce}
+

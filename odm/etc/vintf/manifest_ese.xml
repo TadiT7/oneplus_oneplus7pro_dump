@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Comments, Legal notices, etc. here -->
+<manifest version="1.0" type="device">
+    <!--UICC secure element -->
+   <hal override="true">
+       <name>android.hardware.secure_element</name>
+       <transport>hwbinder</transport>
+       <version>1.0</version>
+       <interface>
+           <name>ISecureElement</name>
+           <instance>eSE1</instance>
+       </interface>
+    </hal>
+    <!-- Interface definition for eSE extention using eSE -->
+    <hal format="hidl">
+        <name>vendor.nxp.nxpese</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>INxpEse</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>

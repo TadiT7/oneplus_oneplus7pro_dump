@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+    <!--
+        Copyright (C) 2018 Qualcomm Technologies, Inc.
+        All Rights Reserved.
+        Confidential and Proprietary - Qualcomm Technologies, Inc.
+    -->
+    
+<MLVoiceCmd>
+
+   <!-- App launch and terminate operations
+   		based on app names	
+   -->
+   
+  <OPERATION-START>
+	<keyword>start</keyword>
+	<keyword>launch</keyword>
+	<keyword>launch app</keyword>
+	<keyword>go to App</keyword>
+  </OPERATION-START>
+  <OPERATION-STOP>
+	<keyword>stop</keyword>
+	<keyword>close</keyword>
+	<keyword>terminate</keyword>
+	<keyword>shut down</keyword>
+  </OPERATION-STOP>
+
+
+   <!-- Specific operations to launch
+        ML aware apps based on keywords
+   -->
+     
+  <OPERATION-NAVIGATE>
+   <keyword>Navigate</keyword>
+   <keyword>Navigate to</keyword>
+	<keyword>start navigation</keyword>
+	<keyword>take me to</keyword>
+	<keyword>go to address</keyword>
+  </OPERATION-NAVIGATE>
+  <OPERATION-MUSIC>
+	<keyword>play music</keyword>
+	<keyword>listen music</keyword>
+	<keyword>listen songs</keyword>
+	<keyword>songs</keyword>
+  </OPERATION-MUSIC>
+
+
+   <!-- Multimedia operations to apply
+        media operations to be applied on ML aware media/music app
+   -->
+  <operation-media-play>
+	<keyword>play</keyword>
+  </operation-media-play>
+
+  <operation-media-pause>
+	<keyword>pause</keyword>
+  </operation-media-pause>
+
+  <operation-media-next>
+	<keyword>next</keyword>
+  </operation-media-next>
+
+  <operation-media-previous>
+	<keyword>previous</keyword>
+  </operation-media-previous>
+
+  <operation-media-fast-forward>
+	<keyword>fast forward</keyword>
+  </operation-media-fast-forward>
+
+  <operation-media-rewind>
+	<keyword>rewind</keyword>
+  </operation-media-rewind>
+
+  <operation-media-top-menu>
+	<keyword>top menu</keyword>
+  </operation-media-top-menu>
+
+  <operation-media-stop>
+	<keyword>stop</keyword>
+  </operation-media-stop>
+
+</MLVoiceCmd>

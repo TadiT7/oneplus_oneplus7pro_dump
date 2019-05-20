@@ -1,0 +1,2 @@
+mcfg_hw/generic/common/default/sm8150.g/default/mcfg_hw.mbn
+mcfg_hw/generic/common/default/sm8150.g/ss_defau/mcfg_hw.mbn

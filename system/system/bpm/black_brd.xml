@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+    <p att="android.intent.action.CLOSE_SYSTEM_DIALOGS"></p>
+    <p att="android.net.wifi.SCAN_RESULTS"></p>
+    <p att="android.intent.action.BATTERY_CHANGED"></p>
+    <p att="android.net.wifi.RSSI_CHANGED"></p>
+    <p att="android.intent.action.TIME_TICK"></p>
+</gs>

@@ -1,0 +1,203 @@
+name: "fc_only"
+
+layer {
+  name: "inputdata"
+  type: "MemoryData"
+  top: "data"
+  top: "label"
+  memory_data_param 
+  {
+    batch_size: 1 
+    channels: 1 
+    height: 3
+    width: 100 
+  }
+}
+layer {
+    name: "reshape"
+    type: "Reshape"
+    bottom: "data"
+    top: "reshape"
+    reshape_param { shape { dim:0 dim:-1 } }
+}
+
+layer {
+  bottom: "reshape"
+  top: "fc1"
+  name: "fc1"
+  type: "InnerProduct"
+  inner_product_param {
+    num_output: 256
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.0
+    }
+  }
+  param {
+    lr_mult: 1.0
+    decay_mult: 1.0
+  }
+  param {
+    lr_mult: 2.0
+    decay_mult: 0
+  }
+}
+layer {
+  bottom: "fc1"
+  top: "fc1"
+  name: "bn_fc1"
+  type: "BatchNorm"
+  include {
+    phase: TEST
+  }
+  param {
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param {
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param {
+    lr_mult: 0
+    decay_mult: 0
+  }
+  batch_norm_param {
+    use_global_stats: true
+    moving_average_fraction: 0.95
+  }
+}
+layer {
+    bottom: "fc1"
+    top: "fc1"
+    name: "scale_fc1"
+    type: "Scale"
+    scale_param {
+        bias_term: true
+    }
+}
+layer {
+  bottom: "fc1"
+  top: "fc1"
+  name: "relu1"
+  type: "ReLU"
+}
+layer {
+  bottom: "fc1"
+  top: "fc1_dropout"
+  name: "drop1"
+  type: "Dropout"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+
+
+layer {
+  bottom: "fc1_dropout"
+  top: "fc2"
+  name: "fc2"
+  type: "InnerProduct"
+  inner_product_param {
+    num_output: 256
+    weight_filler {
+      type: "gaussian"
+      std: 0.01
+    }
+    bias_filler {
+      type: "constant"
+      value: 0.0
+    }
+  }
+  param {
+    lr_mult: 1.0
+    decay_mult: 1.0
+  }
+  param {
+    lr_mult: 2.0
+    decay_mult: 0
+  }
+}
+layer {
+  bottom: "fc2"
+  top: "fc2"
+  name: "bn_fc2"
+  type: "BatchNorm"
+  include {
+    phase: TEST
+  }
+  param {
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param {
+    lr_mult: 0
+    decay_mult: 0
+  }
+  param {
+    lr_mult: 0
+    decay_mult: 0
+  }
+  batch_norm_param {
+    use_global_stats: true
+    moving_average_fraction: 0.95
+  }
+}
+layer {
+    bottom: "fc2"
+    top: "fc2"
+    name: "scale_fc2"
+    type: "Scale"
+    scale_param {
+        bias_term: true
+    }
+}
+layer {
+  bottom: "fc2"
+  top: "fc2"
+  name: "relu2"
+  type: "ReLU"
+}
+layer {
+  bottom: "fc2"
+  top: "fc2_dropout"
+  name: "drop2"
+  type: "Dropout"
+  dropout_param {
+    dropout_ratio: 0.5
+  }
+}
+
+layer {
+  bottom: "fc2_dropout"
+  top: "fc3"
+  name: "fc3"
+  type: "InnerProduct"
+  param {
+    lr_mult: 1
+  }
+  param {
+    lr_mult: 2
+  }
+  inner_product_param {
+    num_output: 100
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+    #axis: 2
+  }
+}
+layer {
+  name: "softmax"
+  type: "Softmax"
+  bottom: "fc3"
+  top: "prob"
+  softmax_param { axis: -1 }
+}

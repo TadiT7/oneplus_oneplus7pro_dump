@@ -1,0 +1,40 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.actionable_compatible_property.enabled=true
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+dalvik.vm.dex2oat-minidebuginfo=true
+debug.atrace.tags.enableflags=0
+ro.opa.eligible_device=true
+ro.setupwizard.mode=OPTIONAL
+setupwizard.feature.predeferred_enabled=false
+ro.com.google.gmsversion=9_201903
+ro.logd.size=4M
+oplib.oneplus_sdk_utils=0.2.2
+oplib.oneplus_sdk_wrapper=0.1.0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Wed May 15 00:53:10 CST 2019
+ro.bootimage.build.date.utc=1557852790
+ro.bootimage.build.fingerprint=OnePlus/OnePlus7Pro_EEA/OnePlus7Pro:9/PKQ1.190110.001/1905150026:user/release-keys
+persist.sys.usb.config=none

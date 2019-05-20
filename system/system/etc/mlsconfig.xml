@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (c) 2018 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+ -->
+<mls_attributes>
+      <screenInfo>
+            <!-- Screen height in pixels
+                 Default : 1024 -->
+            <heightPixel>1024</heightPixel>
+            <!-- Screen width in pixels
+                 Default : 600 -->
+            <widthPixel>600</widthPixel>
+             <!-- Pixel Format: RGB565/ARGB888/RGB888/RGB555/RGB444/RGB343
+                 Default : RGB565 -->
+            <pixelFormat>RGB565</pixelFormat>
+             <!-- Incremental/NonIncremental
+                 Default : true(Incremental) -->
+            <incremental>true</incremental>
+             <!-- Encoding type: RLE/RAW
+                 Default : RLE -->
+             <encodingType>RLE</encodingType>
+      </screenInfo>
+      <networkInfo>
+             <!-- N/W interface name : usb0, ncm0, ..
+                  Default : usb0 -->
+            <networkInterface>usb0</networkInterface>
+             <!-- If IP Address and dhcp range is changed, then dnsmasq has to be killed for the changes to take effect -->
+             <!-- IP Address : 192.168.2.2, 192.168.3.2, ..
+                  Default : 192.168.2.2 -->
+            <ipAddress>192.168.2.2</ipAddress>
+             <!-- DHCP Range : 192.168.2.3 - 192.168.2.100, 192.168.3.3 - 192.168.3.100, ..
+                  Default : 192.168.2.3 - 192.168.2.100 -->
+            <dhcpRange>
+                <beginAddress>192.168.2.3</beginAddress>
+                <endAddress>192.168.2.100</endAddress>
+            </dhcpRange>
+             <!-- network id : 10,11,12, ..
+                  Default : 99 -->
+            <netId>99</netId>
+             <!-- UPnP Server port no: 49152, 49153, ..
+                  Default : 49152 -->
+            <upnpServerPortNo>49152</upnpServerPortNo>
+            <!-- VNC Server port no: 5900/5901/...
+                  Default : 5900 -->
+            <vncServerPortNo>5900</vncServerPortNo>
+             <!-- RTP Server port no: 5004/5005/...
+                  Default : 5004 -->
+            <rtpServerPortNo>5004</rtpServerPortNo>
+             <!-- RTP Client port no: 5005/5006/...
+                  Default : 5005 -->
+            <rtpClientPortNo>5005</rtpClientPortNo>
+             <!-- DAP Server port no: 9920/9921/...
+                  Default : 9920 -->
+            <dapServerPortNo>9920</dapServerPortNo>
+            <!-- CDB Server Endpoint port no: 49252, 49253, ..
+                 Default : 49252 -->
+            <cdbServerPortNo>49252</cdbServerPortNo>
+      </networkInfo>
+      <audioInfo>
+             <!-- RTP Payload Type: 99/98/0/11/10
+                  Note: If the payload type is set to other than default, the Applist.xml has to be updated as well
+                  Default : 99 -->
+            <rtpServerPayloadType>99</rtpServerPayloadType>
+             <!-- RTP Payload Type: 99/98/0/11/10
+                  Note: If the payload type is set to other than default, the Applist.xml has to be updated as well
+                  Default : 99 -->
+            <rtpClientPayloadType>99</rtpClientPayloadType>
+      </audioInfo>
+      <deviceInfo>
+             <!-- ML Major version: 1
+                  Default : 1 -->
+            <majorVersion>1</majorVersion>
+             <!-- ML Minor version: 1/2/3
+                  Default : 2 -->
+            <minorVersion>2</minorVersion>
+             <!-- Device description xml: desc.xml
+                  Default : desc.xml -->
+            <deviceDescription>desc.xml</deviceDescription>
+      </deviceInfo>
+</mls_attributes>

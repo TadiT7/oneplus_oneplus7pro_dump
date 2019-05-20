@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- DEMO use sceneId do not modify -->
+    <effectmap sceneId="9001"  effectId="1"  duration="11" />
+    <effectmap sceneId="9002"  effectId="2"  duration="9" />
+    <effectmap sceneId="9003"  effectId="3"  duration="9" />
+    <effectmap sceneId="9004"  effectId="4"  duration="11" />
+    <effectmap sceneId="9005"  effectId="5"  duration="16" />
+    <!-- 7 excel -->
+    <effectmap sceneId="9006"  effectId="6"  duration="16" />
+    <!-- 8 excel -->
+    <effectmap sceneId="9007"  effectId="7"  duration="70" />
+    <!-- 9 excel -->
+    <effectmap sceneId="9008"  effectId="8"  duration="21" />
+    <!-- 11 excel -->
+    <effectmap sceneId="9009"  effectId="9"  duration="84" />
+    <!-- effectid = 1 -->
+    <effectmap sceneId="1"  effectId="1"  duration="11" />
+    <effectmap sceneId="2"  effectId="1"  duration="11" />
+    <effectmap sceneId="3"  effectId="1"  duration="11" />
+    <effectmap sceneId="21"  effectId="1"  duration="11" />
+    <effectmap sceneId="1007"  effectId="1"  duration="11" />
+    <effectmap sceneId="1012"  effectId="1"  duration="11" />
+    <effectmap sceneId="1015"  effectId="1"  duration="11" />
+    <effectmap sceneId="1017"  effectId="1"  duration="11" />
+    <effectmap sceneId="1018"  effectId="1"  duration="11" />
+    <effectmap sceneId="1021"  effectId="1"  duration="11" />
+    <effectmap sceneId="1026"  effectId="1"  duration="11" />
+    <!-- effectid = 2 -->
+    <effectmap sceneId="1004"  effectId="2"  duration="9" />
+    <effectmap sceneId="1005"  effectId="2"  duration="9" />
+    <effectmap sceneId="1006"  effectId="2"  duration="9" />
+    <effectmap sceneId="1008"  effectId="2"  duration="9" />
+    <effectmap sceneId="1030"  effectId="2"  duration="9" />
+    <!-- effectid = 3 -->
+    <effectmap sceneId="1011"  effectId="3"  duration="9" />
+    <effectmap sceneId="1014"  effectId="3"  duration="9" />
+    <!-- effectid = 4 -->
+    <effectmap sceneId="22"  effectId="4"  duration="11" />
+    <effectmap sceneId="25"  effectId="4"  duration="11" />
+    <effectmap sceneId="26"  effectId="4"  duration="11" />
+    <effectmap sceneId="27"  effectId="4"  duration="11" />
+    <!-- <effectmap sceneId="1000"  effectId="4"  duration="10" /> -->
+    <effectmap sceneId="1001"  effectId="4"  duration="11" />
+    <effectmap sceneId="1002"  effectId="4"  duration="11" />
+    <effectmap sceneId="1003"  effectId="4"  duration="11" />
+    <effectmap sceneId="1010"  effectId="4"  duration="11" />
+    <effectmap sceneId="1014"  effectId="3"  duration="9" />
+    <effectmap sceneId="1019"  effectId="3"  duration="9" />
+    <effectmap sceneId="1020"  effectId="3"  duration="9" />
+    <effectmap sceneId="1022"  effectId="5"  duration="11" />
+    <effectmap sceneId="1024"  effectId="4"  duration="11" />
+    <effectmap sceneId="1025"  effectId="5"  duration="11" />
+    <!-- effectid = 5 -->
+    <effectmap sceneId="4"  effectId="5"  duration="16" />
+    <effectmap sceneId="20"  effectId="5"  duration="16" />
+    <effectmap sceneId="23"  effectId="5"  duration="16" />
+    <effectmap sceneId="1009"  effectId="5"  duration="16" />
+    <effectmap sceneId="1013"  effectId="5"  duration="16" />
+    <effectmap sceneId="1023"  effectId="5"  duration="16" />
+    <!-- effectid = 6 / 7 excel-->
+    <!-- effectid = 7 / 8 excel-->
+    <!-- effectid = 8 / 9 excel-->
+    <!-- effectid = 9 / 11 excel-->
+    <!-- Factory mode, do not change-->
+    <effectmap sceneId="97"  effectId="97" duration="1"/>
+    <effectmap sceneId="98"  effectId="98" duration="1"/>
+    <effectmap sceneId="99"  effectId="99" duration="1"/>
+    <!-- RING use sceneId-->
+    <effectmap sceneId="10101"  effectId="401"  duration="13700" />
+    <effectmap sceneId="10102"  effectId="402"  duration="15780" />
+    <effectmap sceneId="10103"  effectId="403"  duration="19000" />
+    <effectmap sceneId="10104"  effectId="404"  duration="9650" />
+    <effectmap sceneId="10105"  effectId="405"  duration="20140" />
+    <effectmap sceneId="10106"  effectId="406"  duration="16430" />
+    <effectmap sceneId="10107"  effectId="407"  duration="6480" />
+    <effectmap sceneId="10108"  effectId="408"  duration="19190" />
+    <effectmap sceneId="10109"  effectId="409"  duration="16150" />
+    <effectmap sceneId="10110"  effectId="410"  duration="8100" />
+    <effectmap sceneId="10111"  effectId="411"  duration="23980" />
+    <effectmap sceneId="10112"  effectId="412"  duration="8930" />
+    <effectmap sceneId="10113"  effectId="413"  duration="4950" />
+    <effectmap sceneId="10114"  effectId="414"  duration="16320" />
+    <effectmap sceneId="10115"  effectId="415"  duration="13380" />
+    <effectmap sceneId="10116"  effectId="416"  duration="8190" />
+    <effectmap sceneId="10117"  effectId="417"  duration="17040" />
+    <effectmap sceneId="10118"  effectId="418"  duration="20860" />
+    <effectmap sceneId="10119"  effectId="419"  duration="24090" />
+    <effectmap sceneId="10120"  effectId="420"  duration="5960" />
+    <effectmap sceneId="10121"  effectId="421"  duration="8270" />
+    <effectmap sceneId="10122"  effectId="422"  duration="6340" />
+    <effectmap sceneId="10123"  effectId="423"  duration="14800" />
+    <effectmap sceneId="10124"  effectId="424"  duration="20860" />
+    <effectmap sceneId="10125"  effectId="425"  duration="20590" />
+    <effectmap sceneId="10126"  effectId="426"  duration="24410" />
+    <effectmap sceneId="10127"  effectId="427"  duration="20470" />
+    <effectmap sceneId="10128"  effectId="428"  duration="2000" />
+    <!-- Notification use sceneId-->
+    <effectmap sceneId="10201"  effectId="501"  duration="970" />
+    <effectmap sceneId="10202"  effectId="502"  duration="1660" />
+    <effectmap sceneId="10203"  effectId="503"  duration="1400" />
+    <effectmap sceneId="10204"  effectId="504"  duration="2110" />
+    <effectmap sceneId="10205"  effectId="505"  duration="560" />
+    <effectmap sceneId="10206"  effectId="506"  duration="3030" />
+    <effectmap sceneId="10207"  effectId="507"  duration="2310" />
+    <effectmap sceneId="10208"  effectId="508"  duration="1710" />
+    <effectmap sceneId="10209"  effectId="509"  duration="1520" />
+    <effectmap sceneId="10210"  effectId="510"  duration="1900" />
+    <effectmap sceneId="10211"  effectId="511"  duration="1430" />
+    <effectmap sceneId="10212"  effectId="512"  duration="1420" />
+    <effectmap sceneId="10213"  effectId="513"  duration="1690" />
+    <effectmap sceneId="10214"  effectId="514"  duration="1070" />
+    <effectmap sceneId="10215"  effectId="515"  duration="1110" />
+    <effectmap sceneId="10216"  effectId="516"  duration="880" />
+    <effectmap sceneId="10217"  effectId="517"  duration="1890" />
+    <effectmap sceneId="10218"  effectId="518"  duration="620" />
+    <effectmap sceneId="10219"  effectId="519"  duration="850" />
+    <effectmap sceneId="10220"  effectId="520"  duration="650" />
+    <effectmap sceneId="10221"  effectId="521"  duration="970" />
+    <effectmap sceneId="10222"  effectId="522"  duration="1080" />
+    <effectmap sceneId="10223"  effectId="523"  duration="2230" />
+    <!-- Alarm use sceneId-->
+    <effectmap sceneId="10401"  effectId="601"  duration="2380" />
+    <effectmap sceneId="10402"  effectId="602"  duration="2120" />
+    <effectmap sceneId="10403"  effectId="603"  duration="8840" />
+    <effectmap sceneId="10404"  effectId="604"  duration="2430" />
+    <effectmap sceneId="10405"  effectId="605"  duration="2070" />
+    <effectmap sceneId="10406"  effectId="606"  duration="32520" />
+    <effectmap sceneId="10407"  effectId="607"  duration="38520" />
+    <effectmap sceneId="10408"  effectId="608"  duration="22430" />
+    <effectmap sceneId="10409"  effectId="609"  duration="20120" />
+    <effectmap sceneId="10410"  effectId="610"  duration="12590" />
+    <effectmap sceneId="10411"  effectId="611"  duration="18460" />
+    <effectmap sceneId="10412"  effectId="612"  duration="27610" />
+    <effectmap sceneId="10413"  effectId="613"  duration="26560" />
+    <effectmap sceneId="10414"  effectId="614"  duration="7900" />
+    <effectmap sceneId="10415"  effectId="615"  duration="25340" />
+    <effectmap sceneId="10416"  effectId="616"  duration="23570" />
+    <effectmap sceneId="10417"  effectId="617"  duration="12860" />
+    <effectmap sceneId="10418"  effectId="618"  duration="20340" />
+    <effectmap sceneId="10419"  effectId="619"  duration="23270" />
+    <effectmap sceneId="10420"  effectId="620"  duration="20560" />
+</filter-conf>
+

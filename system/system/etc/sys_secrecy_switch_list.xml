@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- *#808# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.EngineerModeMain" />
+    -->
+    <!-- *#36446337# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.EngineeringMode" />
+    <!-- *#8778# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.MasterClear" />
+    <!-- *#806# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autoaging.AutoAgingMainListActivity" />
+    -->
+    <!-- *##*37847# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.DeviceListActivity" />
+    <!-- *#*#7668#*#* -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.CheckRootStatusActivity" />
+    <!-- *#807# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.autotest.AutoTest" />
+    <!-- *#805# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.bluetoothtest.BluetoothTest" />
+    <!-- *#804# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.NetworkSearch" />
+    <!-- *#803# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiSettings" />
+    <!-- *#802# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.gps.GpsActivity" />
+    <!-- *#99# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.KeepSrceenOn" />
+    <!-- *#6776# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.CheckSoftwareInfo" />
+    <!-- *#888# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.PcbShow" />
+    -->
+    <!-- *#809# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.echotest.EchoTest" />
+    <!-- *##*8110# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.OtaSwitch" />
+    <!-- *#801# -->
+    <!--
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.DiagEnabled" />
+    -->
+    <!-- *#008# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LanguageSwitchToChineseActivity" />
+    <!-- *#67760044# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LanguageSwitchToEnglishActivity" />
+    <!-- *#268# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.qualcomm.QualCommActivity" />
+    <!-- *#900# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.BackCameraAdjusting" />
+    <!-- *#911# -->
+    <!--<activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.PowerOff" />-->
+    <!-- *#10000# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.MarkResultShow" />
+    <!-- *#814# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.TDSNetworkSearch" />
+    <!-- *#824# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.WCDMANetworkSearch" />
+    <!-- *#834# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.LTENetworkSearch" />
+    <!-- *#818# *#838# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.NetworkSearch_New" />
+    <!-- *#928# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiFTMActivity" />
+    <!-- *#8019# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiSocketHelper" />
+    <!-- *#7332# -->
+    <activity packageName="com.oem.rftoolkit"  className="com.oem.rftoolkit.RfToolkitFactory" />
+    <!-- *#7328# -->
+    <activity packageName="com.oem.rftoolkit"  className="com.oem.rftoolkit.RfToolkitAgingTest" />
+    <!-- *#7327# -->
+    <activity packageName="com.oem.rftoolkit"  className="com.oem.rftoolkit.RfToolkitCustomerService" />
+    <!-- fingerprint calibration -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FUNFingerPrintCalibrationTest" />
+    <!-- *#806# result page -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.pt.PtActivity" />
+    <!-- fingerprint calibration result -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintCalibrationResult" />
+    <!-- *#899# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.aftersale.ChooseBackCoverColor" />
+    <!-- *#845# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiApSettings" />
+    <!-- *#*#866#*#* -->
+    <activity packageName="com.example.tmo"  className="com.example.tmo.TmoActivityList" />
+    <!-- *#8020# -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.wifitest.WifiAdbHelper" />
+    <!-- fingerprint calibration -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintCalibrationTest" />
+    <!-- front camera motor and hall calibration -->
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallAfterSaleCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallCalibrateActivity" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallForceMove" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorHallSelfTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorStepHallCalibration" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorStepTest" />
+    <activity packageName="com.oneplus.factorymode"  className="com.oneplus.factorymode.manualtest.motor.MotorTestActivity" />
+    <!-- fingerprint test -->
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.SensorTestToolActivity" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FingerPrintQualityTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTSensorTestToolActivity" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintQualityTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintPerformanceTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintExposureTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintCaptureAgingTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.FTFingerPrintAgingTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.qcom.FingerPrintSelfTestt" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.qcom.FingerPrintSnrTest" />
+    <activity packageName="com.fingerprints.fingerprintsensortest"  className="com.fingerprints.fingerprintsensortest.qcom.FingerPrintPsfTest" />
+</filter-conf>
+

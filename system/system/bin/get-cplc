@@ -1,0 +1,2 @@
+svc nfc get-die-id
+svc nfc get-cplc

@@ -1,0 +1,60 @@
+{
+    "Opbluetoothdevice":[
+        {
+            "addr_start":"30:C0:1B:37:E1:26",
+            "addr_end":"30:C0:1B:38:7D:65",
+            "device_type":"Headset",
+            "version":"1",
+            "name_ch":"一加云耳",
+            "name_en":"OnePlus Bullets Wireless"
+        },
+        {
+            "addr_start":"30:C0:1b:A6:88:E4",
+            "addr_end":"30:C0:1B:A6:91:17",
+            "device_type":"Headset",
+            "version":"1",
+            "name_ch":"一加云耳",
+            "name_en":"OnePlus Bullets Wireless"
+        },
+        {
+            "addr_start":"64:A2:F9:16:89:88",
+            "addr_end":"64:A2:F9:16:B0:97",
+            "device_type":"Headset",
+            "version":"1",
+            "name_ch":"一加云耳",
+            "name_en":"OnePlus Bullets Wireless"
+        },
+        {
+            "addr_start":"64:A2:F9:16:B0:98",
+            "addr_end":"64:A2:F9:17:73:E7",
+            "device_type":"Headset",
+            "version":"1",
+            "name_ch":"一加云耳",
+            "name_en":"OnePlus Bullets Wireless"
+        },
+        {
+            "addr_start":"64:A2:F9:FE:47:4F",
+            "addr_end":"64:A2:F9:FF:F4:FF",
+            "device_type":"Headset",
+            "version":"1",
+            "name_ch":"一加云耳",
+            "name_en":"OnePlus Bullets Wireless"
+        },
+        {
+            "addr_start":"64:A2:F9:FA:EB:EF",
+            "addr_end":"64:A2:F9:FC:4F:67",
+            "device_type":"Headset",
+            "version":"1",
+            "name_ch":"一加云耳",
+            "name_en":"OnePlus Bullets Wireless"
+        },
+        {
+            "addr_start":"98:09:CF:F8:5E:DF",
+            "addr_end":"98:09:CF:FF:FF:FF",
+            "device_type":"Headset",
+            "version":"2",
+            "name_ch":"一加云耳2",
+            "name_en":"OnePlus Bullets Wireless 2"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+#
+# init scriptures for training daemon.
+#
+on property:sys.training=1
+   start caffed
+on property:sys.training=0
+   stop caffed
+service caffed /system/bin/caffe
+   class main
+   user system
+   group system
+   disabled
+   oneshot

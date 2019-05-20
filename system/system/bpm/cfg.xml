@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+policy:
+if (sys version > data version )
+{
+	exec cfg;
+}
+else 
+{
+	ignore;
+}
+
+-->
+
+<cfg>
+<item name="version" >1</item>
+<!-- on, off, ignore -->
+<item name="forceSwitch" >on</item>
+</cfg>
